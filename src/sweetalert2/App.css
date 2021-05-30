@@ -1,0 +1,38 @@
+.main
+{
+    height: 100vh;
+    width: 100vw;
+    border: darkseagreen dashed 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.memos
+{
+    font-size: 10px;
+    color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.divButton
+{
+    /*border: 1px solid darkseagreen;*/
+    box-shadow: 0 0 3px 1px darkseagreen;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 60px;
+    text-align: center;
+    margin: 3px;
+    color: darkgreen;
+}
+.divButtonHover
+{
+    composes: divButton;
+    box-shadow: 0 0 3px 2px darkolivegreen;
+}
