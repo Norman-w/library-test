@@ -10,6 +10,27 @@ class Demo extends React.Component {
     // value: ['0-0-0'],
   };
   componentDidMount() {
+    //region 递归把所有的value变成数字而不是字符串
+    // const func = (node)=>
+    // {
+    //   node.value = parseInt(node.value);
+    //
+    //   if (node.children)
+    //   {
+    //     for (let i=0;i<node.children.length;i++)
+    //     {
+    //       func(node.children[i]);
+    //     }
+    //   }
+    // }
+    // for (let i=0;i<treeData.length;i++)
+    // {
+    //   func(treeData[i]);
+    // }
+    // let json = JSON.stringify(treeData);
+    //
+    // console.log(json);
+    //endregion
   }
 
   onChange = value => {
