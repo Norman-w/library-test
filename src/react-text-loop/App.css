@@ -1,0 +1,9 @@
+.div1
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  border: dashed 1px saddlebrown;
+  overflow: hidden;
+}
