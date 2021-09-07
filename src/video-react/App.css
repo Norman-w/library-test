@@ -1,0 +1,111 @@
+.button
+{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.main
+{
+    width: 100%;
+    /*height: 100vh;*/
+    height: 100vh;
+    /*height: auto;*/
+    /*border: 1px solid sandybrown;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    border: none;
+}
+.player
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid seagreen;*/
+    transition: 0.8s;
+}
+.playerMasked
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    filter: contrast(50%) brightness(50%);
+    transition: 0.8s;
+}
+.controlPanel
+{
+    /*masked*/
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*border: coral;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    border-radius: 5px;
+    /*border: 1px dashed darkcyan;*/
+    cursor: pointer;
+    user-select: none;
+    color: lightgray;
+    font-size: 20px;
+    /*text-shadow: 1px 1px #cae0ca;*/
+    box-shadow: 0 0 3px lightgray;
+    transition: 0.4s;
+}
+.btnHover
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+    color: gray;
+    font-size: 25px;
+    text-shadow: 1px 1px darkseagreen;
+    box-shadow: 0 0 3px seagreen;
+    transition: 0.1s;
+}
+.closeBtn
+{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: lightgray;
+    box-shadow: lightgray 0px 0px 3px;
+    text-shadow: 1px 1px skyblue;
+    border-radius: 20px;
+    user-select: none;
+    cursor: pointer;
+}
+.hidingPlayBtn
+{
+    border: 1px solid red;
+    display: none;
+}
