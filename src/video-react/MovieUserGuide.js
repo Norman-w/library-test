@@ -7,6 +7,7 @@ import {
   BigPlayButton,
 } from 'video-react';
 import "video-react/dist/video-react.css"; // import css
+import './video-react-rewrite.css';
 //endregion
 
 //region 为了让他能有自动的代码提示和为以后结构设计有方向,直接定义了默认结构信息在这里.
@@ -147,7 +148,7 @@ class MovieUserGuide extends Component {
 
   //endregion
 
-  //region 视频状态有变更 包裹人的操作和视频主动发出来的时间变化之类的
+  //region 视频状态有变更 包括人的操作和视频主动发出来的时间变化之类的
   handleStateChange(state, prevState) {
     console.log('状态已经更新;');
     console.log(state)
@@ -168,7 +169,6 @@ class MovieUserGuide extends Component {
       }
     }
   }
-
   //endregion
 
   //region 隐藏或者显示页面上的控制视频的按钮
@@ -293,7 +293,7 @@ class MovieUserGuide extends Component {
           >
             <ControlBar autoHide={false} disableDefaultControls={true} disableCompletely={true}>
             </ControlBar>
-            <BigPlayButton position={classNames.hide}/>
+            <BigPlayButton position={'hide'}/>
           </Player>
         </div>
         <div className={classNames.controlPanel}
