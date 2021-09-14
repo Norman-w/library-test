@@ -11590,7 +11590,7 @@ verror@1.10.0:
 
 video-react@^0.14.1:
   version "0.14.1"
-  resolved "https://registry.nlark.com/video-react/download/video-react-0.14.1.tgz#49ac7b19f1d039c0b3ebec82f81224bc2fa8bdf1"
+  resolved "https://registry.npm.taobao.org/video-react/download/video-react-0.14.1.tgz#49ac7b19f1d039c0b3ebec82f81224bc2fa8bdf1"
   integrity sha1-Sax7GfHQOcCz6+yC+BIkvC+ovfE=
   dependencies:
     "@babel/runtime" "^7.4.5"

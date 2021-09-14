@@ -1,10 +1,11 @@
 import ReactDOM from 'react-dom';
-import TabBar from "./react-transition-group/App";
-import SweetAlert2Test from "./sweetalert2/App";
-import Demo from "./antd/TreeSelect/App";
-import TextLoopTest from "./react-text-loop/App";
+// import TabBar from "./react-transition-group/App";
+// import SweetAlert2Test from "./sweetalert2/App";
+// import Demo from "./antd/TreeSelect/App";
+// import TextLoopTest from "./react-text-loop/App";
 // import {TextInput} from "simple-component-library";
-import VideoReact from "./video-react/App";
+// import VideoReact from "./video-react/App";
+import MovieUserGuide from "./video-react/MovieUserGuide";
 
 
 // const testingDOM = <TabBar/>;
@@ -12,7 +13,8 @@ import VideoReact from "./video-react/App";
 // const testingDOM = <Demo/>
 // const testingDOM = <TextLoopTest/>
 // const testingDOM = <TextInput/>
-const testingDOM = <VideoReact/>
+// const testingDOM = <VideoReact/>
+const testingDOM = <MovieUserGuide/>
 
 ReactDOM.render(testingDOM, document.getElementById('root'));
 

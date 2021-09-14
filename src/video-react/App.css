@@ -67,7 +67,7 @@
     font-size: 20px;
     /*text-shadow: 1px 1px #cae0ca;*/
     box-shadow: 0 0 3px lightgray;
-    transition: 0.4s;
+    transition: 0.8s;
 }
 .btnHover
 {
@@ -83,7 +83,24 @@
     font-size: 25px;
     text-shadow: 1px 1px darkseagreen;
     box-shadow: 0 0 3px seagreen;
-    transition: 0.1s;
+    transition: 0.2s;
+}
+.btnHide
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+  color: gray;
+  font-size: 0;
+  text-shadow: 1px 1px darkseagreen;
+  box-shadow: 0 0 3px seagreen;
+  opacity: 0;
+  transition: 0.8s;
 }
 .closeBtn
 {
@@ -104,8 +121,7 @@
     user-select: none;
     cursor: pointer;
 }
-.hidingPlayBtn
+.video-react .video-react-big-play-button.video-react-big-play-button-hide
 {
-    border: 1px solid red;
-    display: none;
+  display: none;
 }
