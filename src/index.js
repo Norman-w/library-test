@@ -5,8 +5,8 @@ import ReactDOM from 'react-dom';
 // import TextLoopTest from "./react-text-loop/App";
 // import {TextInput} from "simple-component-library";
 // import VideoReact from "./video-react/App";
-import MovieUserGuide from "./video-react/MovieUserGuide";
-
+// import MovieUserGuide from "./video-react/MovieUserGuide";
+import App from './STORMReactDiagrams/App';
 
 // const testingDOM = <TabBar/>;
 // const testingDOM = <SweetAlert2Test/>
@@ -14,8 +14,8 @@ import MovieUserGuide from "./video-react/MovieUserGuide";
 // const testingDOM = <TextLoopTest/>
 // const testingDOM = <TextInput/>
 // const testingDOM = <VideoReact/>
-const testingDOM = <MovieUserGuide/>
-
+// const testingDOM = <MovieUserGuide/>
+const testingDOM = <App></App>
 ReactDOM.render(testingDOM, document.getElementById('root'));
 
 
